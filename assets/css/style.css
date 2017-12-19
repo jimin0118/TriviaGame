@@ -1,0 +1,86 @@
+body {
+	background-image: url("https://i.imgur.com/o6X1Z60.jpg");
+	height: 100%; 
+	margin: 0;
+}
+
+#wrapper {
+	box-sizing: border-box;	
+	width: 850px;
+	height: 95%;
+	background-image: url("https://i.imgur.com/0Dzm97N.png");
+	margin: 3% 10% 3% 10%;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-size: 20px;
+    text-align: center;	
+}
+
+#subwrapper {
+    position: relative;
+}
+
+h1 {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 50px;
+	font-weight: bold;
+    color: #e8d3c7;
+    text-align: center;	
+    padding-top: 3%;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 35px;
+    color: #7f7f7f;
+}
+
+h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+img {
+	width: 450px;
+    height: 270px;
+}
+
+button {
+    display: block;
+    width: 50%;
+    height: 20%;
+    margin: 0 auto;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    font-size: 42px;;
+}
+
+button:hover {
+    border: 2px solid #7f7f7f;
+    background: #e8d3c7;
+}
+
+#start {
+    margin-top: 10%;
+    font-family: 'Courier New', Courier, monospace;
+    color: #7f7f7f;
+    background: #e8d3c7;
+}
+
+#start-over {
+    font-family: 'Courier New', Courier, monospace;
+    color: #7f7f7f;
+    background: #e8d3c7;
+    border: 2px solid #7f7f7f;
+}
+
+.answer-button {
+	font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+    color: #ffffff;
+	font-weight: bold;
+}
+
